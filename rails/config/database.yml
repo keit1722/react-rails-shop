@@ -27,6 +27,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  host: db
   database: react_rails_shop_test
   password: password
 
