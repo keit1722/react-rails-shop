@@ -16,3 +16,8 @@ $ docker compose up
 $ docker compose run --rm rails bundle exec rails db:create
 $ docker compose run --rm rails bundle exec rails db:migrate
 ```
+
+### アクセス
+
+- フロントエンド： http://localhost:5173/
+- バックエンド： http://localhost:3000/
