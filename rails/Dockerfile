@@ -1,4 +1,3 @@
-# FROM ruby:3.3.5
 FROM ruby:3.3.5-slim
 
 RUN apt-get update && \
