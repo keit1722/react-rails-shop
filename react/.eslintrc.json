@@ -32,15 +32,7 @@
     "import/order": [
       "error",
       {
-        "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-          "object"
-        ],
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object"],
         // importグループごとに改行する
         "newlines-between": "always",
         // 各グループ内の順序をアルファベット順に並べ替える
