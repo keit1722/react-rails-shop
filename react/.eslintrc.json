@@ -22,6 +22,7 @@
   "plugins": ["react", "react-hooks", "@typescript-eslint", "import"],
   "rules": {
     // react17以降はReactのimport不要
+    "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
     // react-hooks
     "react-hooks/rules-of-hooks": "error",
