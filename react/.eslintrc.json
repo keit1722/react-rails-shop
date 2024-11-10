@@ -40,5 +40,10 @@
         "alphabetize": { "order": "asc", "caseInsensitive": true }
       }
     ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
