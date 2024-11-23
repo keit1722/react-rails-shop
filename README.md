@@ -23,20 +23,20 @@ $ docker compose run --rm rails bundle exec rails db:migrate
 
 ```
 # チェック
-$ docker compose exec react npx eslint
+$ docker compose exec react npm run lint
 
 # 修正
-$ docker compose exec react npx eslint --fix
+$ docker compose exec react npm run lint:fix
 ```
 
 ### Prettier
 
 ```
 # チェック
-$ docker compose exec react npx prettier . --check
+$ docker compose exec react npm run format
 
 # 修正
-$ docker compose exec react npx prettier . --write
+$ docker compose exec react npm run format:fix
 ```
 
 ## アクセス
